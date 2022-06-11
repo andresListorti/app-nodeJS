@@ -6,4 +6,4 @@ function sumarValores(){
     console.log(`la suma es ${numero1 + numero2}`);
 }
 
-sumarValores()
+sumarValores()  
