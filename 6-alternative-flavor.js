@@ -12,3 +12,7 @@ const person = {
 
 
 module.exports.singlePerson = person
+
+// esto exportara un objeto con 2 items: [] y singleperson {name: 'bob'}
+
+console.log(module);

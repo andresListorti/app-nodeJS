@@ -9,6 +9,8 @@ require('./7-mindgranade')
 sayHi('susan')
 sayHi(names.john)
 sayHi(names.pete)
+// console.log(dataGenerica)
+// console.log(module);
 
 
 

@@ -6,4 +6,6 @@ const john = 'john'
 const pete = 'pete'
 
 
-module.exports = {john, pete}
+module.exports = { john, pete }
+
+// console.log(module);

@@ -1,10 +1,10 @@
-// Globld
+// Globals - NO WINDOW
 
 // __dirname - la ruta al directorio actual
 // __filename - nombre del archivo 
-//  require - una funcion para usar modulos
-// module - info del modulo actual
-// process - info de las variables de entorno del programa donde se ejecuta
+//  require - una funcion para usar modulos (CommonJS)
+// module - info del modulo actual (file) 
+// process - info del entorno donde el programa esta siendo ejecutado
 
 console.log(__dirname)
 setInterval(() => {
