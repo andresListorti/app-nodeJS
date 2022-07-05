@@ -3,7 +3,7 @@ const os = require('os')
 const user = os.userInfo()
 console.log(user);
 
-// metodo retorna the system uotime in seconds
+// metodo retorna the system uptime in seconds
 console.log(`the system uptime is ${os.uptime()} seconds`);
 
 const currentOS = {
