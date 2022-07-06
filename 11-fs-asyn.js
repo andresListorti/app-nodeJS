@@ -1,6 +1,6 @@
 // esta es la version asincronica
 
-const { readFile, writeFile, } = require('fs')
+const { readFile, writeFile } = require('fs')
 
 console.log('start');
 
