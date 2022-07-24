@@ -7,11 +7,18 @@ const server = http.createServer((req, res)=>{
     if(req.url === '/about'){
         res.end('pequenia historia')
     }     
-//     res.end(`
-//     <h1>Ooooooops</h1>
-// <p>no se encuentra</p>  
-// <a href="/">back home</a>
-//     `)
+    // if((req.url === '/error')){
+    // res.end(`
+    // <h1>Ooooooops</h1>
+    // <p>no se encuentra</p>
+    // <a href="/">back home</a>
+    // `)
+    // }
+    res.end(`
+    <h1>Ooooooops</h1>
+    <p>no se encuentra</p>
+    <a href="/">back home</a>
+    `)
 })
 
 server.listen(5000)
