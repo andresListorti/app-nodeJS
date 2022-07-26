@@ -19,8 +19,8 @@ const getText = (path) => {
 
 const start = async() => {
   try {
-    const first = await getText('./content/primero.txt')
-    console.log(first);
+    const first = await getText('./content/primero.txt') // en la function que es async el await es como el then - 
+    console.log(first); 
 
   } catch (error) {
     console.log(error);
